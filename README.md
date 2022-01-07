@@ -5,5 +5,9 @@ Buscando ofertas do dia, no MercadoLivre com python.
 pip install scrapy
 
 #Executar o projeto
+
 abrir o diretorio do projeto, e dentro do terminal digite o comando:
-scrapy crawl ml
+
+scrapy crawl ml -o listaml.json
+
+Séra gerado um arquivo json com a lista de produtos.
